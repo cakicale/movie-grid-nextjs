@@ -1,6 +1,6 @@
 const fetchMoviesJSON = async (searchQuery) => {
-    
-    const response = await fetch('http://localhost:3000/movies.json');
+
+    const response = await fetch(window.location.href + 'movies.json');
     const movies = await response.json();
     if (searchQuery == undefined || searchQuery == "") {//.target.value
         return movies;
