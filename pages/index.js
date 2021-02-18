@@ -6,8 +6,7 @@ import { SearchBar } from "../components/SearchBar";
 
 export default function HomePage() {
     const [movies, setMovies] = useState([]);
-    const [search, setSearch] = useState([]);
-    console.log(search);
+    const [search, setSearch] = useState("");
 
     useEffect(() => {
         fetchMoviesJSON(search).then(result => setMovies(result));
