@@ -1,0 +1,38 @@
+@media (min-width: 550px) {  
+    .dot {
+        position:absolute;
+        height: 33px;
+        width: 36px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 50%;
+        display: inline-block;
+        margin-top:-42px;
+        margin-left: 3px;
+    }
+    .innerCircle {
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgba(13, 218, 92, 0.836);
+        background-color: rgba(134, 46, 83, 0);
+        color: white;
+        margin-left:1.5px;
+    }
+    .percent:before {
+        content: "%";
+    }
+    .percent {
+        font-size: 8px;
+        padding-left: 20px;
+    }
+    .procenat {
+        position: absolute;
+        padding-top: 10px;
+        padding-left: 4px;
+        text-align: center;
+        line-height: 10px;
+    }
+}

@@ -1,0 +1,27 @@
+.text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.text > h2 {
+    margin-bottom: 0;
+}
+.text > p {
+    margin-top: 0;
+    color: grey;
+}
+.overview {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    padding-top: 20%;
+    color: black !important;
+}
+@media (min-width: 550px) {
+    .overview {
+        display: none;
+    }
+}

@@ -1,0 +1,14 @@
+.moviePicture {
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 35%;
+}
+@media (min-width: 550px) {
+    .moviePicture {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 15px;
+        width: 100%;
+    }  
+}

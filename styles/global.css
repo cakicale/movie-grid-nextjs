@@ -1,0 +1,32 @@
+::selection {
+    color: none;
+    background: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+span {
+    display: none;
+} 
+
+img {
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 35%;
+}
+@media (min-width: 550px) {  
+    span {
+        display: inline-block;
+    } 
+    img {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 15px;
+        width: 100%;
+    }  
+}
+

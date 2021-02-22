@@ -1,6 +1,7 @@
-import { Rating } from "./Rating";
+import { Rating } from "../Rating/Rating";
+import styles from "./MovieInfo.module.css"
 
-const MovieInfo = ({title, description, date, rating}) => {
+const MovieInfo = ({ title, description, date, rating }) => {
     //const movieRating = Rating(rating);
     return (
         <div className="text">
@@ -9,8 +10,8 @@ const MovieInfo = ({title, description, date, rating}) => {
                 {title}
                 <a href="#" />
             </h2>
-            <p className="date">{date}</p>
-            <p className="overview">{description}</p>
+            <p className={styles.date}>{date}</p>
+            <p className={styles.overview}>{description}</p>
         </div>
     )
 }

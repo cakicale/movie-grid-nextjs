@@ -1,0 +1,13 @@
+.item1 {
+    min-width: 100%;
+    display: flex;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    max-width: 220px;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+}
+@media (min-width: 550px) {
+    .item1 {
+        display: block;
+    }
+}
